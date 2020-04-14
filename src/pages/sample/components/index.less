@@ -1,0 +1,26 @@
+.tree{
+    position: fixed;
+    z-index: 999;
+
+    :global{
+        .ant-select-search__field{
+            color: #1a1a1a;
+        }
+        .ant-select-tree{
+            & li{
+                & span{
+                    &.ant-select-tree-switcher{
+                    }
+                    &.ant-select-tree-switcher_open{
+                    }
+                    &.ant-select-tree-switcher_close{
+                    }
+                    &.ant-select-tree-switcher-noop{
+                    }
+                    &.ant-select-tree-title{
+                    }
+                }
+            }
+        }
+    }
+}
